@@ -1,4 +1,4 @@
--- Top 5 temporadas com maior desaprovação;
+-- # Top 5 temporadas com maior desaprovação;
 
 SELECT
     episodio,
@@ -11,7 +11,7 @@ FROM
 ORDER BY review_usuarios ASC, review_critica ASC 
 LIMIT 3;
 
--- Top 5 episódios com maior duração de tempo;
+-- # Top 5 episódios com maior duração de tempo;
 
 SELECT
     episodio,
